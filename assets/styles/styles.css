@@ -1,0 +1,413 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./font/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(./font/Montserrat-Black.ttf);
+    font-weight: 900;
+}
+
+div {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logop {
+    color: red;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 31px;
+    width: max-content;
+}
+
+.logoi {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    margin-top: 17px;
+    margin-left: 215px;
+}
+
+.menu {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 32px;
+}
+
+.menu1 {
+    color: red;
+}
+.menu2 {
+    font-size: 14px;
+    margin-top: 31px;
+}
+.menub {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 22px;
+    color: red;
+    font-size: 14px;
+    border: 1px solid red;
+    width: 197px;
+    height: 35px;
+    flex-shrink: 0;
+    margin-right: 215px;
+}
+.logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr 2fr;
+    height: 80px;
+}
+
+
+.bluebox {
+    background-color: #89E8EC;
+    height: 557px;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: absolute;
+    top: 126px;
+    left: 215px;
+    right: 215px;
+    bottom: 46px;
+}
+
+.redbox {
+    position: absolute;
+    top: 193px;
+    right: 159px;
+    height: 536px;
+    width: 536px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 100px;
+    margin-top: 128px;
+    width: 387px;
+    text-align: left;
+}
+
+.mainp {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 100px;
+    width: 336px;
+    text-align: left;
+}
+
+.mainb {
+    color: white;
+    background-color: red;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    width: 240px;
+    height: 60px;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+.maini {
+    width: 627px;
+    height: 557px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 126px;
+    right: 250px;
+}
+
+.shop {
+    margin-top: 729px;
+    margin-bottom: 139px;
+}
+.shopm {
+    
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.shopm1 {
+    font-size: 25px;
+    font-weight: 900;
+    width: max-content;
+    margin-top: 0;
+}
+
+.shopm2 {
+    color: red;
+}
+.shopm6 {
+    width: 15px;
+    height: 5px;
+    width: max-content;
+    margin-top: 5px;
+}
+
+nav {
+    margin-right: 215px;
+    margin-left: 215px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+    margin-top: 10px;
+    grid-gap: 40px;
+}
+
+.goods {
+    margin-top: 70px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 215px 1fr 1fr 1fr 1fr 215px;
+
+}
+
+.left {
+    margin-top: 140px;
+    margin-left: 169px;
+}
+
+.right {
+    margin-top: 140px;
+    margin-right: 169px;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    flex-shrink: 0;
+    box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-rows: 1fr 0.30fr 0.10fr 0.40fr;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 45px;
+    
+}
+
+.cardi {
+    grid-column: 1/3;
+    width: 198px;
+    height: 198px;
+    flex-shrink: 0;
+    margin-top: 35px;
+    margin-left: 36px;
+    margin-left: 36px;
+
+}
+h3 {
+    grid-column: 1/3;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.oldprice {
+    grid-column: 1/3;
+    font-family: Montserrat;
+    color: red;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+}
+.newprice {
+    color: red;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    align-self: center;
+    justify-self: center;
+}
+.arrow {
+    align-self: center;
+    justify-self: center;
+    width: 14.5px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+.gallery {
+    margin-top: 143px;
+    margin-right: 215px;
+    margin-left: 215px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: start;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.2fr;
+}
+.p1 {
+    grid-column: 1/3;
+    width: 550px;
+}
+.p3 {
+    width: 270px;
+}
+.p4 {
+    width: 270px;
+}
+
+.photo2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 0.2fr;
+}
+.p2 {
+    grid-column: 1/3;
+    width: 500px;
+}
+.p5 {
+    width: 250px;
+}
+.p6 {
+    width: 250px;
+}
+.text {
+    margin-left: 215px;
+    margin-right: 215px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 80% 10%;
+    margin-bottom: 80px;
+    height: 509px;
+}
+.text1 {
+    grid-column: 1/3;
+}
+.text4 {
+    grid-column: 1/3;
+    text-align: left;
+    
+}
+.text2 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+
+
+.logofp {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 31px;
+    width: max-content;
+}
+
+.logofi {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    margin-top: 17px;
+    margin-left: 215px;
+}
+
+.menuf {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 32px;
+}
+
+.menuf1 {
+    color: white;
+}
+.menuf2 {
+    font-size: 14px;
+    margin-top: 31px;
+}
+.menufb {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 22px;
+    color: white;
+    background-color: #757575;
+    font-size: 14px;
+    border: 1px solid white;
+    width: 197px;
+    height: 35px;
+    flex-shrink: 0;
+    margin-right: 215px;
+}
+.logof {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.footer {
+    background-color: #757575;
+    height: 174px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr 2fr;
+    height: 80px;
+}
+
+
+
+
